@@ -4,7 +4,7 @@ opcao = 0
 saldo = [2000]
 extrato = [saldo[0]]
 repeticao = 0
-cont = 0
+
 
 
 while opcao != 4:
@@ -23,10 +23,8 @@ while opcao != 4:
         saldo_str = str(saldo[0])
         extrato.append(saldo_str)
     elif opcao == 3:
-        for valor in extrato:
-            cont += 1
-            print(f'{cont}° operação --- R$ {valor}')
-        cont = 0
+        for i, valor in enumerate(extrato):
+            print(f'{i + 1}° operação --- R$ {valor}')
 else:
     print("Obrigado, volte sempre!")
     
