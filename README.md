@@ -1,5 +1,3 @@
-# Sistema-bancario
-
 # Sistema Bancário
 
 Este é um desafio de programação em Python, onde desenvolvi um Sistema Bancário básico com três operações principais: saque, depósito e visualização do extrato. 
